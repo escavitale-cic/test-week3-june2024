@@ -1,0 +1,44 @@
+:root{
+    --myred: #ad2a37;
+}
+
+header{
+    background-color: var(--myred);
+    height: 100px;
+    font-size: 2.5rem;
+}
+
+h1{
+    color: white;
+}
+
+a{
+    background-color: var(--myred) !important;
+    color: white !important;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: black !important;
+    transition: 1s;
+    color: white;
+}
+
+footer{
+    background-color: var(--myred);
+    height: 100px;
+    color: black;
+    font-size: 1.2rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
