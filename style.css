@@ -1,0 +1,67 @@
+header h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    background-color: #ad2a37;
+}
+
+#button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: #ad2a37;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: black;
+    background-color: #ad2a37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background: var(--background-color);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.articles-area {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 35px;
+    column-gap: 51px;
+    text-align: center;
+}
+
+.products-area {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.article-paragraph {
+    font-size: 1rem;
+    color: black;
+    font-weight:lighter;
+}
+
+.article-title {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.article-id {
+    position: absolute;
+    font-size: 0.1px;
+}
